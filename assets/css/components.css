@@ -3583,7 +3583,7 @@ ss .box-media.layout-6:hover .box-img img {
     background-position: right;
     background-size: auto 100%;
     -webkit-background-size: auto 100%;
-    background-image: url("../img/homepage/client-2.jpg");
+    background-image: url("../img/client-2.jpg");
 }
 
 .our-client.layout-1.ver-2 .banner .banner-left {
@@ -3954,7 +3954,7 @@ ss .box-media.layout-6:hover .box-img img {
     background-position: right;
     background-size: cover;
     -webkit-background-size: cover;
-    background-image: url("../img/homepage/contact-1.jpg");
+    background-color: #ECECEC;
     padding: 60px 0 45px;
     overflow: hidden;
 }
