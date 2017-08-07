@@ -11,16 +11,34 @@ jQuery(function($){
     SLZ.mainFunction = function(){
 
         /*Google map*/
-        var myLatLngHK = {lat: 22.277627, lng: 114.164995};
-        var markerLatLngHK = {lat: 22.277627, lng: 114.164995};
+var myLatLngHK = {
+    lat: 22.277627,
+    lng: 114.164995
+};
+var markerLatLngHK = {
+    lat: 22.277627,
+    lng: 114.164995
+};
 
-        var myLatLngNY = {lat: 40.712780, lng: -74.006057};
-        var markerLatLngNY = {lat: 40.712780, lng: -74.006057};
+var myLatLngNY = {
+    lat: 40.712780,
+    lng: -74.006057
+};
+var markerLatLngNY = {
+    lat: 40.712780,
+    lng: -74.006057
+};
 
-        var myLatLngSG = {lat: 1.356031, lng: 103.874896};
-        var markerLatLngSG = {lat: 1.356031, lng: 103.874896};
+var myLatLngSG = {
+    lat: 1.356031,
+    lng: 103.874896
+};
+var markerLatLngSG = {
+    lat: 1.356031,
+    lng: 103.874896
+};
 
-        var customMapTypeId = 'map_style';
+var customMapTypeId = 'map_style';
 
         // Create an array of styles.
         var styles = [
