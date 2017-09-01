@@ -123,13 +123,18 @@
                                 </div>
                             </div>
                         </section>
+
+                        <!--=================
+                            CONTACT US
+                        =================-->
                         <section class="contact layout-4 padding-top-100 padding-bottom-100">
                             <div class="box-content-wrap">
                                 <div class="container">
                                     <div class="group-wrapper">
                                         <div class="group-content">
                                             <div class="group-title group-title-5">
-                                                <h2 class="main-title">Need some help?  We're here for you</h2></div>
+                                                <h2 class="main-title">Need some help?  We're here for you</h2>
+                                            </div>
                                         </div>
                                         <div class="row">
                                             <div class="col-sm-4">
@@ -160,31 +165,38 @@
                                 <div class="clearfix"> </div>
                             </div>
                         </section>
+                        <!--===========
+                          MESSAGE
+                        ==============-->
                         <section class="contact layout-1">
-                            <div class="container">
-                                <div class="row banner">
-                                    <div class="col-sm-4 banner-right">
-                                        <div class="group-title group-title-3">
-                                            <h2 class="main-title">Get in <span>touch</span> <span class="dot"></span> <span class="mute-title">Start</span></h2></div>
-                                    </div>
-                                    <div class="col-sm-8 banner-left">
-                                        <div class="banner-content">
-                                            <div class="title">Let's start a <span>new project</span> together!</div>
-                                            <form action="#" class="form-contact">
-                                                <div class="form-group">
-                                                    <input type="text" placeholder="Name" class="form-control">
+                                        <div class="container">
+                                            <div class="row banner">
+                                                <div class="col-sm-4 banner-right">
+                                                    <div class="group-title group-title-3">
+                                                        <h2 class="main-title">Get in <span>touch</span> <span class="dot"></span> <span class="mute-title">Start</span></h2></div>
                                                 </div>
-                                                <div class="form-group">
-                                                    <input type="email" placeholder="Email" class="form-control">
+                                                <div class="col-sm-8 banner-left">
+                                                    <div class="banner-content">
+                                                        <div class="title">Let's start a <span>new project</span> together!</div>
+                                                        <form action="assets/php/contact.php" method="post" class="form-contact" novalidate>
+                                                            <div class="form-group">
+                                                                <input type="text" name="name" placeholder="Name" class="form-control" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <input type="email" name="email" placeholder="Email" class="form-control" required>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <textarea rows="5" name="message" placeholder="Message" class="form-control" required></textarea>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-main btn-danger">Submit Message</button>
+                                                            <input type="hidden" name="submitted" id="submitted" value="true" />
+
+                                                        </form>
+                                                    </div>
                                                 </div>
-                                                <div class="form-group">
-                                                    <textarea rows="5" placeholder="Message" class="form-control"></textarea>
-                                                </div><a href="#" class="btn btn-main">Submit Message</a></form>
+                                            </div>
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                                    </section>
                     </div>
                 </div>
             </div>
